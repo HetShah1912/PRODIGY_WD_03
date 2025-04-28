@@ -30,7 +30,7 @@ boxes.forEach((box)=>{
             turnO = false;
         }
         else{
-            box.classList.add("oColor");
+            box.classList.remove("oColor");
             box.innerHTML = "X";
             box.classList.add("xColor");
             turnO = true;
